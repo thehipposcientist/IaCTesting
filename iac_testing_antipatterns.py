@@ -45,6 +45,7 @@ class IaCTestingAntipatterns:
         
         for yaml_file in yaml_files:
             playbook = Util.get_playbook(yaml_file)
+            print(playbook)
             
 #            print(playbook)
             
